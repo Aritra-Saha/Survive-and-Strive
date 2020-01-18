@@ -199,12 +199,12 @@ while run:
     keys = pygame.key.get_pressed()
 
     if keys[pygame.K_SPACE] and shootLoop == 0:
-        bulletSound.play()
         if man.left:
             facing = -1
         else:
             facing = 1
         if len(bullets) < 5:
+            bulletSound.play()
             bullets.append(projectile(round(man.x + man.width // 2), round (man.y + man.height // 2), 6, (0, 0, 0), facing))
 
         shootLoop = 1
