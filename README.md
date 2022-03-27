@@ -25,4 +25,4 @@ class projectile():
 ## Status
 This project is still in progress.
 ## Contact Information
-You can contact me at aritrasaha01@gmail.com
+You can contact me at aritra.saha@uwaterloo.ca
